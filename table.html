@@ -6,35 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table , tr , td {
-            border: 1px solid grey;
-            border-collapse: collapse;
-            padding: 5;
+        button {
+            border: 1px solid gray;
+            padding: 5px;
+        }
+        button:hover {
+            background-color: red;
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>First name</th>
-            <th>Last name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td><input type="text" placeholder="your name"></td>
-            <td><input type="text" placeholder="your last name"></td>
-            <td><input type="text" placeholder="your age"></td>
-        </tr>
-        <tr>
-             <td><input type="text" placeholder="your name"></td>
-             <td><input type="text" placeholder="your last name"></td>
-             <td><input type="text" placeholder="your age"></td>
-        </tr>
-        <tr>
-            <td><input type="text" placeholder="your name"></td>
-            <td><input type="text" placeholder="your last name"></td>
-            <td><input type="text" placeholder="your age"></td>
-        </tr>
-    </table>
+    <p>Please answer the following questions: </p>
+    <label for="">How old are you? </label>
+    <input type="text">
+    <div>
+
+    </div>
+    <label for="">what is your sex? </label>
+    <div>
+
+    </div>
+    <input type="radio"> female <br/>
+    <input type="radio"> male<br/>
+
+    <label for="">what is the highest level of education you have completed</label><br/>
+    <select name="choose from this list" id="" >
+        <option value="">university</option>
+        <option value="">high school</option>
+        <option value="">secondary school</option>
+        <option value="">primary school</option>
+    </select>
+
+    <br/>
+
+    <label for="">Enter your comment here: </label><br/>
+    <textarea name="" id="" cols="30" rows="5"></textarea><br/>
+
+    <button>save</button>
 </body>
 </html>
